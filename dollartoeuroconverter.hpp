@@ -1,12 +1,12 @@
 #ifndef DOLLARTOEUROCONVERTER_H
 #define DOLLARTOEUROCONVERTER_H
 
-#include "converter.hpp"
+#include "currencyconverter.hpp"
 
-class dollarToEuroConverter : public converter
+class dollartoeuroconverter : public currencyconverter
 {
   public:
-    dollarToEuroConverter();
+    dollartoeuroconverter();
     double convert(double inDollars);
     std::string toString() const;
     void print() const;
